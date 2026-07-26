@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: api
+    runtime: python
+    buildCommand: pip install -r requirements.txt --force-reinstall
+    startCommand: gunicorn -w 4 -b 0.0.0.0:$PORT "my-react-app.backend.server:APP"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.2"

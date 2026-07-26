@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "models": [
+    { "name": "MobileNetV2", "type": "image", "format": "tflite", "task": "icon/app-image classification" },
+    { "name": "CNN", "type": "binary", "format": "tflite", "task": "binary/app feature classifier" },
+    { "name": "RandomForest", "type": "tabular", "format": "export", "task": "permissions/metadata risk scoring" },
+    { "name": "IsolationForest", "type": "tabular", "format": "export", "task": "anomaly detection" }
+  ],
+  "xai": {
+    "engine": "SHAP-summary",
+    "note": "In production, SHAP is computed offline and summarized for on-device display."
+  }
+}
+

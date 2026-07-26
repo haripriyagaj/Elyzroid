@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700;800&display=swap");
+@import "./assets/theme/variables.css";
+
+html,
+body,
+#root,
+ion-app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ely-bg);
+  color: var(--ely-text);
+}
+
+.ely-bg-grid::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.ely-layer {
+  position: relative;
+  z-index: 1;
+}
+
+.ely-card {
+  background: var(--ely-surface);
+  border: 1px solid var(--ely-border);
+  border-radius: 16px;
+}
+
+.ely-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--ely-surface3);
+  color: var(--ely-text2);
+}
+
+.ely-risk {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+  font-family: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  border: 1px solid transparent;
+}
+.ely-risk.low {
+  background: rgba(0, 230, 118, 0.12);
+  color: var(--ely-green);
+  border-color: rgba(0, 230, 118, 0.3);
+}
+.ely-risk.medium {
+  background: rgba(255, 202, 40, 0.12);
+  color: var(--ely-yellow);
+  border-color: rgba(255, 202, 40, 0.3);
+}
+.ely-risk.high {
+  background: rgba(255, 23, 68, 0.12);
+  color: var(--ely-red);
+  border-color: rgba(255, 23, 68, 0.3);
+}
+

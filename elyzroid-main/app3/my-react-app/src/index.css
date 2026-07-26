@@ -1,0 +1,6 @@
+/* Ionic app global resets live in `src/global.css`.
+   Keep this file minimal to avoid fighting Ionic layouts. */
+html,
+body {
+  height: 100%;
+}

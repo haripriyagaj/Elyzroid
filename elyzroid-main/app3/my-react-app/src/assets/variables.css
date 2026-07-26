@@ -1,0 +1,133 @@
+/* Ionic Theme Variables with Elyzorid Risk Colors */
+:root {
+  /* Elyzorid Brand Colors */
+  --ely-bg: #080c14;
+  --ely-surface: #0d1421;
+  --ely-surface2: #121b2e;
+  --ely-surface3: #1a2540;
+  --ely-accent: #00d4ff;
+  --ely-accent2: #7c3aed;
+  --ely-green: #00e676;
+  --ely-yellow: #ffca28;
+  --ely-red: #ff1744;
+  --ely-orange: #ff6d00;
+  --ely-text: #e8f0fe;
+  --ely-text2: #8fa3c8;
+  --ely-border: rgba(0,212,255,0.12);
+  --ely-glow: 0 0 20px rgba(0,212,255,0.15);
+
+  /* Ionic Overrides */
+  --ion-color-primary: #00d4ff;
+  --ion-color-primary-rgb: 0, 212, 255;
+  --ion-color-primary-contrast: #000000;
+  --ion-color-primary-contrast-rgb: 0, 0, 0;
+  --ion-color-primary-shade: #00bbdd;
+  --ion-color-primary-tint: #1ad8ff;
+
+  --ion-color-secondary: #7c3aed;
+  --ion-color-secondary-rgb: 124, 58, 237;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #6d32d1;
+  --ion-color-secondary-tint: #8a4ef0;
+
+  --ion-color-success: #00e676;
+  --ion-color-success-rgb: 0, 230, 118;
+  --ion-color-success-contrast: #000000;
+  --ion-color-success-contrast-rgb: 0, 0, 0;
+  --ion-color-success-shade: #00ca68;
+  --ion-color-success-tint: #1ae985;
+
+  --ion-color-warning: #ffca28;
+  --ion-color-warning-rgb: 255, 202, 40;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #e0b123;
+  --ion-color-warning-tint: #ffcf3e;
+
+  --ion-color-danger: #ff1744;
+  --ion-color-danger-rgb: 255, 23, 68;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #e0143c;
+  --ion-color-danger-tint: #ff2e57;
+
+  --ion-color-dark: #080c14;
+  --ion-color-dark-rgb: 8, 12, 20;
+  --ion-color-dark-contrast: #e8f0fe;
+  --ion-color-dark-contrast-rgb: 232, 240, 254;
+  --ion-color-dark-shade: #070b12;
+  --ion-color-dark-tint: #21242e;
+
+  --ion-color-medium: #8fa3c8;
+  --ion-color-medium-rgb: 143, 163, 200;
+  --ion-color-medium-contrast: #000000;
+  --ion-color-medium-contrast-rgb: 0, 0, 0;
+  --ion-color-medium-shade: #7e8fb0;
+  --ion-color-medium-tint: #9aacce;
+
+  --ion-color-light: #e8f0fe;
+  --ion-color-light-rgb: 232, 240, 254;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #ccd3e0;
+  --ion-color-light-tint: #eaf2fe;
+
+  --ion-background-color: #080c14;
+  --ion-background-color-rgb: 8, 12, 20;
+
+  --ion-text-color: #e8f0fe;
+  --ion-text-color-rgb: 232, 240, 254;
+
+  --ion-card-background: #0d1421;
+
+  --ion-item-background: #0d1421;
+
+  --ion-border-color: rgba(0,212,255,0.12);
+
+  --ion-font-family: 'Outfit', sans-serif;
+}
+
+/* Risk Badge Colors */
+.risk-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+}
+
+.risk-low {
+  background: rgba(0, 230, 118, 0.12);
+  color: #00e676;
+  border: 1px solid rgba(0, 230, 118, 0.3);
+}
+
+.risk-medium {
+  background: rgba(255, 202, 40, 0.12);
+  color: #ffca28;
+  border: 1px solid rgba(255, 202, 40, 0.3);
+}
+
+.risk-high {
+  background: rgba(255, 23, 68, 0.12);
+  color: #ff1744;
+  border: 1px solid rgba(255, 23, 68, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.2);
+  border-radius: 2px;
+}

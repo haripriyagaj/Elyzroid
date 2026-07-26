@@ -1,0 +1,17 @@
+√ Copying web assets from dist to android\app\src\main\assets\public in 10.88ms
+√ Creating capacitor.config.json in android\app\src\main\assets in 7.41ms
+√ copy android in 37.35ms
+√ Updating Android plugins in 1.96ms
+[info] Found 1 Capacitor plugin for android:
+       @capacitor/preferences@7.0.4
+√ update android in 365.41ms
+[info] Sync finished in 0.629s
+[info] Opening Android project at: android.
+√ Copying web assets from dist to android\app\src\main\assets\public in 4.90ms
+√ Creating capacitor.config.json in android\app\src\main\assets in 496.00μs
+√ copy android in 15.19ms
+√ Updating Android plugins in 1.59ms
+[info] Found 1 Capacitor plugin for android:
+       @capacitor/preferences@7.0.4
+√ update android in 29.49ms
+[info] Sync finished in 0.062s

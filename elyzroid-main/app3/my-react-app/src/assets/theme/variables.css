@@ -1,0 +1,32 @@
+:root {
+  --ely-bg: #080c14;
+  --ely-surface: #0d1421;
+  --ely-surface2: #121b2e;
+  --ely-surface3: #1a2540;
+  --ely-accent: #00d4ff;
+  --ely-accent2: #7c3aed;
+  --ely-green: #00e676;
+  --ely-yellow: #ffca28;
+  --ely-red: #ff1744;
+  --ely-text: #e8f0fe;
+  --ely-text2: #8fa3c8;
+  --ely-border: rgba(0, 212, 255, 0.12);
+
+  --ion-font-family: "Outfit", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --ion-background-color: var(--ely-bg);
+  --ion-background-color-rgb: 8, 12, 20;
+  --ion-text-color: var(--ely-text);
+  --ion-text-color-rgb: 232, 240, 254;
+
+  --ion-color-primary: var(--ely-accent);
+  --ion-color-primary-rgb: 0, 212, 255;
+  --ion-color-primary-contrast: #000000;
+  --ion-color-primary-contrast-rgb: 0, 0, 0;
+  --ion-color-primary-shade: #00bbdf;
+  --ion-color-primary-tint: #1ad9ff;
+
+  --ion-color-success: var(--ely-green);
+  --ion-color-warning: var(--ely-yellow);
+  --ion-color-danger: var(--ely-red);
+}
+

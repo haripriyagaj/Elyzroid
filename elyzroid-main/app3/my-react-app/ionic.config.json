@@ -1,0 +1,8 @@
+{
+  "name": "elyzorid",
+  "type": "react",
+  "integrations": {
+    "capacitor": {}
+  }
+}
+

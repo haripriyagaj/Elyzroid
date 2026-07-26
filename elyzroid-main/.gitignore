@@ -1,0 +1,35 @@
+# Node / React / Ionic
+node_modules/
+dist/
+build/
+
+# Android
+.gradle/
+*.apk
+*.idsig
+local.properties
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+*.class
+*.log
+*.swp
+*.swo
+*~
+
+# ML Models (optional - include if small, otherwise document in README)
+# *.h5
+# *.keras
